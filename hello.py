@@ -1,5 +1,5 @@
 # html用
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 import json
 app = Flask(__name__)
 
@@ -14,6 +14,8 @@ def help():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+
 
 @app.route('/result',methods=['GET'])
 def result():
