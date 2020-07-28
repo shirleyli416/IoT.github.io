@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>IoT traffic translater</title>
     <link href="../static/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="dictAllPut.json"></script>
     <style type="text/css">
         body {background-color: #E8EAFF}
         h1 {font-size: 300%}
@@ -42,81 +43,178 @@
 </head>
 
 <body>
-<ul>
-    <li><a href="/about">About</a></li>
-    <li><a href="/help">Help</a></li>
-    <li><a href="/">Home</a></li>
-</ul>
-<div class="container">
-    <div class="row">
+    <ul class="navbar-fixed-top">
+        <li><a href="about.html">About</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
 
-        <div class="col-md-3">
-{#            <div>#}
-{#                <img class="img-responsive" src="../static/off.jpg" style="width: 200px;height: 200px" alt="">#}
-{#                <p>设备成功连接，等待用户控制</p>#}
-{#            </div>#}
-            {%for key in dictPutall%}
-                <div class="row center-block" style="width: 200px;height: 200px">
-                    {% if "Turn on" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/on.jpg" style="width:100%" alt="">
-                    {% elif "Turn off" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/off.jpg" style="width:100%" alt="">
-                    {% elif "Change the bright" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/bright.jpg" style="width:100%" alt="">
-                    {% elif "Bulb scene" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/scene.jpg" style="width:100%" alt="">
-                    {% else %}
-                        <p></p>
-                    {% endif %}
-                </div>
-            {% endfor %}
-        </div>
-
-        <div class="col-md-6">
-            {%for key in dictPutall%}
-                <div class="row {{ 'pull-right' if dictPutall[key][2] == 'R' else 'pull-left'}}" style="width: 350px;height: 200px;background-color: whitesmoke;border: darkgrey solid">
-                    <br>
-                    <p id="p"; style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed">{{ dictPutall[key][0] }}</p>
-                    <br>
-                    <p style ="color: #444444">{{dictPutall[key][1]}}</p>
-                    <br>
-                </div>
-            {% endfor %}
-        </div>
-        <div class="col-md-3">
-            {%for key in dictPutall%}
-                <div class="row center-block" style="width: 200px;height: 200px">
-                    {% if "Turn on" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/lon.jpg" style="width:100%" alt="">
-                    {% elif "Turn off" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/loff.jpg" style="width:100%" alt="">
-                    {% elif "Change the bright" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/lbright.jpg" style="width:100%" alt="">
-                    {% elif "Bulb scene" in dictPutall[key][1] %}
-                        <img class="img-responsive" src="../static/lbright.jpg" style="width:100%" alt="">
-                    {% else %}
-                        <p></p>
-                    {% endif %}
-                </div>
-            {% endfor %}
-        </div>
-
+<div class="row navbar-fixed-top" style="margin-top: 48px; background-color: #E8EAFF; padding-top: 20px; padding-bottom: 10px">
+    <div class="col-md-3">
+        <p class="text-center" style="font-size: 20px; font-weight: 600"><i style="font-size: 24px" class="fa fa-mobile"></i> Control app on the phone</p>
+    </div>
+    <div class="col-md-6">
+        <p class="text-center" style="font-size: 20px; font-weight: 600"><i style="font-size: 24px" class="fa fa-comments-o"></i> IoT traffic dialogs</p>
+    </div>
+    <div class="col-md-3">
+        <p class="text-center" style="font-size: 20px; font-weight: 600"><i style="font-size: 24px" class="fa fa-lightbulb-o"></i> IoT device - Philips bulb</p>
     </div>
 </div>
 
-<!--<div class="resultsshow">-->
-<!--    <div class="phoneapp">-->
-<!--        <img src="../static/on.jpg" width="200" height="200">-->
-<!--    </div>-->
-<!--    <div class="info">-->
-<!--        {{dictPutall}}-->
-<!--    </div>-->
+<div class="container">
+    <div class="row" style="margin-top: 120px">
 
-<!--    <div class="trans"></div>-->
-<!--    <div class="bulb">-->
-<!--        <img src="../static/lon.jpg" width="200" height="200">-->
-<!--    </div>-->
-<!--</div>-->
-<!--{{dictPutall}}-->
+        <!-- <div class="row"> -->
+           <div id="image-left-div" class="col-md-3">
+                <div id="image-left-row" class="row center-block" style="width: 200px;height: 200px;margin-top: 10px;display: none">
+                    <img class="img-responsive" src="" style="width:100%" alt="Image display error">
+                </div>
+            </div>
+        
+            <div id="dialog-div" class="col-md-6">
+                <div id="dialog-row" class="row" style="width: 350px;height: 200px;background-color: whitesmoke;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
+                    <p id="p-origin" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed; color: grey"></p>
+                    <p id="p-translate" style ="font-weight: 600; font-size: 16px"></p>
+                </div>
+            </div>
+
+            <div id="image-right-div" class="col-md-3">
+                <div id="image-right-row" class="row center-block" style="width: 200px;height: 200px;margin-top: 10px;display: none">
+                    <img class="img-responsive" src="" style="width:100%" alt="Image display error">
+                </div>
+            </div> 
+        <!-- </div>       -->
+
+    </div>
+</div>
 </body>
 </html>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        
+    });
+
+    var pcap_num = window.location.search.substr(1);
+    var dictPutall = dictAllPut['pcap'+pcap_num];
+    var if_first = 1;
+    $.each(dictPutall, function(index, val) {
+        if(if_first == 1) {
+            var duplicate = $("#image-left-row").clone(true);
+            duplicate.attr('id', 'image-left-row-'+index);
+            duplicate.css('display', '');
+            duplicate.find("img").attr('src', '../static/off.jpg');
+            $("#image-left-div").append(duplicate);
+            if_first = 0;
+        } else {
+            if(val.length > 0) {
+                if(val[1].indexOf('Turn on') != -1){
+                    var duplicate = $("#image-left-row").clone(true);
+                    duplicate.attr('id', 'image-left-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/on.jpg');
+                    $("#image-left-div").append(duplicate);
+                } else if(val[1].indexOf('Turn off') != -1) {
+                    var duplicate = $("#image-left-row").clone(true);
+                    duplicate.attr('id', 'image-left-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/off.jpg');
+                    $("#image-left-div").append(duplicate);
+                } else if(val[1].indexOf('Change the bright') != -1) {
+                    var duplicate = $("#image-left-row").clone(true);
+                    duplicate.attr('id', 'image-left-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/bright.jpg');
+                    $("#image-left-div").append(duplicate);
+                } else if(val[1].indexOf('Bulb scene') != -1) {
+                    var duplicate = $("#image-left-row").clone(true);
+                    duplicate.attr('id', 'image-left-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/scene.jpg');
+                    $("#image-left-div").append(duplicate);
+                } else {
+                    var duplicate = $("#image-left-row").clone(true);
+                    duplicate.attr('id', 'image-left-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").remove();
+                    duplicate.append('<p></p>');
+                    $("#image-left-div").append(duplicate);
+                }
+            }
+        }
+    });
+
+    var if_first = 1;
+    $.each(dictPutall, function(index, val) {
+        console.log(index);
+        if(if_first == 1) {
+            var duplicate = $("#image-right-row").clone(true);
+            duplicate.attr('id', 'image-right-row-'+index);
+            duplicate.css('display', '');
+            duplicate.find("img").attr('src', '../static/loff.jpg');
+            $("#image-right-div").append(duplicate);
+            if_first = 0;
+        } else {
+            if(val.length > 0) {
+                if(val[1].indexOf('Turn on') != -1) {
+                    var duplicate = $("#image-right-row").clone(true);
+                    duplicate.attr('id', 'image-right-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/lon.jpg');
+                    $("#image-right-div").append(duplicate);
+                } else if(val[1].indexOf('Turn off') != -1) {
+                    var duplicate = $("#image-right-row").clone(true);
+                    duplicate.attr('id', 'image-right-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/loff.jpg');
+                    $("#image-right-div").append(duplicate);
+                } else if(val[1].indexOf('Change the bright') != -1) {
+                    var duplicate = $("#image-right-row").clone(true);
+                    duplicate.attr('id', 'image-right-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/lbright.jpg');
+                    $("#image-right-div").append(duplicate);
+                } else if(val[1].indexOf('Bulb scene') != -1) {
+                    var duplicate = $("#image-right-row").clone(true);
+                    duplicate.attr('id', 'image-right-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").attr('src', '../static/lbright.jpg');
+                    $("#image-right-div").append(duplicate);
+                } else {
+                    var duplicate = $("#image-right-row").clone(true);
+                    duplicate.attr('id', 'image-right-row-'+(index+1));
+                    duplicate.css('display', '');
+                    duplicate.find("img").remove();
+                    duplicate.append('<p></p>');
+                    $("#image-right-div").append(duplicate);
+                }
+            }
+        }
+    });
+
+    $.each(dictPutall, function(index, val) {
+        if(val.length > 0) {
+            var duplicate = $("#dialog-row").clone(true);
+            duplicate.attr('id', 'dialog-row-'+(index+1));
+            duplicate.css('display', '');
+            if(val[2] == 'R') {
+                duplicate.attr('class', 'row pull-right');
+                duplicate.css({
+                    'background-color': 'slateblue',
+                    'border': 'lightslategrey solid'
+                });
+                duplicate.find("#p-origin").css({
+                    'color': '#E0E9F4',
+                    'border-bottom': 'darkgoldenrod dashed'
+                });
+                duplicate.find("#p-translate").css('color', 'white');
+            } else {
+                duplicate.attr('class', 'row pull-left');
+            }
+            duplicate.find("#p-origin").html(val[0]);
+            duplicate.find("#p-origin").attr('id', 'p-origin-'+(index+1));
+            duplicate.find("#p-translate").html(val[1]);
+            duplicate.find("#p-translate").attr('id', 'p-translate'+(index+1));
+            $("#dialog-div").append(duplicate);
+        }
+    });
+</script>

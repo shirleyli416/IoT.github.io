@@ -9,7 +9,7 @@
 	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style type="text/css">
-
+        body {background-color: #E8EAFF}
         nav nav-pills {color: aquamarine}
         ul {
             list-style-type: none;
@@ -47,18 +47,19 @@
 </head>
 <body>
 
-<ul>
-    <li><a href="/about">About</a></li>
-    <li><a href="/help">Help</a></li>
-    <li><a href="/">Home</a></li>
+<ul class="navbar-fixed-top">
+    <li><a href="about.html">About</a></li>
+    <li><a href="help.html">Help</a></li>
+    <li><a href="index.html">Home</a></li>
 </ul>
 
-<p class="Head">
-    How to use
-</p>
-<p class="body">
-    In home page, there are 8 example packets, which are captured by Wireshark. Users could just select one example and click convert. After that, it will jump to the result page. The result page compares the original information in the package with the translated information. It makes it easier for the user to understand how does the packet transmit information to control the IoT device。
-</p>
-<br>
+<div class="container">
+    <p class="Head" style="margin-top: 70px">
+        How to use
+    </p>
+    <p class="body">
+        In home page, there are 8 example packets, which are captured by Wireshark. Users could just select one example and click convert. After that, it will jump to the result page. The result page compares the original information in the package with the translated information. It makes it easier for the user to understand how does the packet transmit information to control the IoT device。
+    </p>
+</div>
 </body>
 </html>

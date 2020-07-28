@@ -35,24 +35,32 @@
         p.sansserif{
             font-family:Arial,Verdana,Sans-serif;
             font-style:italic;
-            font-weight: bold;
             font-size: 120%;
             text-indent: 1cm
+        }
+        p.Head{
+            font-family:Arial,Verdana,Sans-serif;
+            font-style:italic;
+            font-weight: bold;
+            font-size: 150%;
+            text-indent: 1cm;
         }
 
 </style>
 </head>
 <body>
 
-<ul>
-    <li><a href="/about">About</a></li>
-    <li><a href="/help">Help</a></li>
-    <li><a href="/">Home</a></li>
+<ul class="navbar-fixed-top">
+    <li><a href="about.html">About</a></li>
+    <li><a href="help.html">Help</a></li>
+    <li><a href="index.html">Home</a></li>
 </ul>
-<p class="sansserif">
-    This web will allow people who do not have computer network knowledge to understand the main content of the traffic packets, and do not have to learn computer network knowledge or protocol related knowledge. Taking IoT traffic packets from an IoT device (Philips bulbs) as an example, the site pre-captures pcap files for viewing converted file information(convert information from binary form to text). So that they could have a more intuitive understanding of protocols and control information of devices on the Internet of Things.  For these users, it might be an easy start to learn about IoT traffic. This web will display filtered, cleaned up, and translated(visualized) packets, and the Result page will display the original traffic packet and the corresponding converted information, which might be understandable for users without relevant knowledge.
-</p>
-
+<div class="container">
+    <p class="Head" style="margin-top: 70px">About us</p>
+    <p class="sansserif">
+        This web will allow people who do not have computer network knowledge to understand the main content of the traffic packets, and do not have to learn computer network knowledge or protocol related knowledge. Taking IoT traffic packets from an IoT device (Philips bulbs) as an example, the site pre-captures pcap files for viewing converted file information(convert information from binary form to text). So that they could have a more intuitive understanding of protocols and control information of devices on the Internet of Things.  For these users, it might be an easy start to learn about IoT traffic. This web will display filtered, cleaned up, and translated(visualized) packets, and the Result page will display the original traffic packet and the corresponding converted information, which might be understandable for users without relevant knowledge.
+    </p>
+</div>
 
 </body>
 </html>
