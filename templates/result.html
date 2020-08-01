@@ -51,7 +51,7 @@
 
 <div class="row navbar-fixed-top" style="margin-top: 48px; background-color: #E8EAFF; padding-top: 20px; padding-bottom: 10px">
     <div class="col-md-3">
-        <p class="text-center" style="font-size: 20px; font-weight: 600"><i style="font-size: 24px" class="fa fa-mobile"></i> Control app on the phone</p>
+        <p class="text-center" style="font-size: 20px; font-weight: 600"><i style="font-size: 24px" class="fa fa-mobile"></i> Philips Hue app on the phone</p>
     </div>
     <div class="col-md-6">
         <p class="text-center" style="font-size: 20px; font-weight: 600"><i style="font-size: 24px" class="fa fa-comments-o"></i> IoT traffic dialogs</p>
@@ -73,6 +73,7 @@
         
             <div id="dialog-div" class="col-md-6">
                 <div id="dialog-row" class="row" style="width: 350px;height: 200px;background-color: whitesmoke;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
+                    <p id="p-procotol" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed"></p>
                     <p id="p-origin" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed; color: grey"></p>
                     <p id="p-translate" style ="font-weight: 600; font-size: 16px"></p>
                 </div>
@@ -210,6 +211,8 @@
             } else {
                 duplicate.attr('class', 'row pull-left');
             }
+            duplicate.find("#p-protocol").html(val[3]);
+            duplicate.find("#p-origin").attr('id', 'p-protocol-'+(index+1));
             duplicate.find("#p-origin").html(val[0]);
             duplicate.find("#p-origin").attr('id', 'p-origin-'+(index+1));
             duplicate.find("#p-translate").html(val[1]);
