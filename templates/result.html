@@ -161,7 +161,7 @@ In this example, the data packet has been cleaned and filtered. The above MAC ad
         console.log(index);
         if(if_first == 1) {
             var duplicate = $("#image-right-row").clone(true);
-            duplicate.attr('id', 'image-right-row-'+index);
+            duplicate.attr('id', 'dialog-row-'+index);
             duplicate.css('display', '');
             duplicate.find("img").attr('src', '../static/loff.jpg');
             $("#image-right-div").append(duplicate);
@@ -207,8 +207,8 @@ In this example, the data packet has been cleaned and filtered. The above MAC ad
     $.each(dictPutall, function(index, val) {
         if(if_first == 1) {
             var duplicate = $("#mid-format-div").clone(true);
-            {#duplicate.attr('id', 'image-right-row-'+index);#}
-            {#duplicate.css('display', '');#}
+            duplicate.attr('id', 'image-right-row-'+index);
+            duplicate.css('display', '');
             {#duplicate.find("img").attr('src', '../static/loff.jpg');#}
             $("#mid-format-div").append(duplicate);
             if_first = 0;
