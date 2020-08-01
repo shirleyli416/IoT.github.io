@@ -72,13 +72,8 @@
             </div>
 
             <div id="mid-format-div" class="col-md-6">
-                 <div id="dialog-row" class="row" style="width: 350px;height: 220px;background-color: darkgrey;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
-                    <p id="p-format" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed">The TCP and HTTP packets format<br>
-Ethernet header include Media Access Control(MAC) address of source and destination.<br>
-IP header mainly include protocol field, source IP address and destination IP address.<br>
-TCP header mainly include Source Port and Destination Port fields, Sequence Number field, and Acknowledgement Number field. The port number is used to find the application process on the sending and receiving end(Philips hue app and the Philips bulb), and to identify both ends of each TCP link with IP address and MAC address.
-TCP data<br>
-In this example, the data packet has been cleaned and filtered. The above MAC address, IP address, and port are all the same (the source and destination are corresponding). This information will be omitted below. Only the TCP data field and protocol type will be displayed.</p>
+                 <div id="dialog-row" class="row" style="width: 400px;height: 220px;background-color: darkgrey;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
+                    <p id="p-format" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed"></p>
 
                 </div>
             </div>
@@ -209,7 +204,7 @@ In this example, the data packet has been cleaned and filtered. The above MAC ad
             var duplicate = $("#mid-format-div").clone(true);
             duplicate.attr('id', 'image-right-row-'+index);
             duplicate.css('display', '');
-            duplicate.find("p-format").attr('id', 'p-format');
+            duplicate.find("p-format").attr('id', 'The TCP and HTTP packets format<br>Ethernet header include Media Access Control(MAC) address of source and destination.<br>IP header mainly include protocol field, source IP address and destination IP address.<br>TCP header mainly include Source Port and Destination Port fields, Sequence Number field, and Acknowledgement Number field. The port number is used to find the application process on the sending and receiving end(Philips hue app and the Philips bulb), and to identify both ends of each TCP link with IP address and MAC address.TCP data<br>In this example, the data packet has been cleaned and filtered. The above MAC address, IP address, and port are all the same (the source and destination are corresponding). This information will be omitted below. Only the TCP data field and protocol type will be displayed.');
             $("#mid-format-div").append(duplicate);
             if_first = 0;
         } else {
