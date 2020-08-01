@@ -209,7 +209,7 @@ In this example, the data packet has been cleaned and filtered. The above MAC ad
             var duplicate = $("#mid-format-div").clone(true);
             duplicate.attr('id', 'image-right-row-'+index);
             duplicate.css('display', '');
-            {#duplicate.find("img").attr('src', '../static/loff.jpg');#}
+            duplicate.find("p-format").attr('id', 'p-format');
             $("#mid-format-div").append(duplicate);
             if_first = 0;
         } else {
