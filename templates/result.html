@@ -99,14 +99,14 @@
     var dictPutall = dictAllPut['pcap'+pcap_num];
     var if_first = 1;
     $.each(dictPutall, function(index, val) {
-        if(if_first == 1) {
-            var duplicate = $("#image-left-row").clone(true);
-            duplicate.attr('id', 'image-left-row-'+index);
-            duplicate.css('display', '');
-            duplicate.find("img").attr('src', '../static/off.jpg');
-            $("#image-left-div").append(duplicate);
-            if_first = 0;
-        } else {
+        {#if(if_first == 1) {#}
+        {#    var duplicate = $("#image-left-row").clone(true);#}
+        {#    duplicate.attr('id', 'image-left-row-'+index);#}
+        {#    duplicate.css('display', '');#}
+        {#    duplicate.find("img").attr('src', '../static/off.jpg');#}
+        {#    $("#image-left-div").append(duplicate);#}
+        {#    if_first = 0;#}
+       
             if(val.length > 0) {
                 if(val[1].indexOf('Turn on') != -1){
                     var duplicate = $("#image-left-row").clone(true);
@@ -141,20 +141,21 @@
                     $("#image-left-div").append(duplicate);
                 }
             }
-        }
+
     });
 
     var if_first = 1;
     $.each(dictPutall, function(index, val) {
         console.log(index);
-        if(if_first == 1) {
-            var duplicate = $("#image-right-row").clone(true);
-            duplicate.attr('id', 'image-right-row-'+index);
-            duplicate.css('display', '');
-            duplicate.find("img").attr('src', '../static/loff.jpg');
-            $("#image-right-div").append(duplicate);
-            if_first = 0;
-        } else {
+        {#if(if_first == 1) {#}
+        {#    var duplicate = $("#image-right-row").clone(true);#}
+        {#    duplicate.attr('id', 'image-right-row-'+index);#}
+        {#    duplicate.css('display', '');#}
+        {#    duplicate.find("img").attr('src', '../static/loff.jpg');#}
+        {#    $("#image-right-div").append(duplicate);#}
+        {#    if_first = 0;#}
+
+        {#else {#}
             if(val.length > 0) {
                 if(val[1].indexOf('Turn on') != -1) {
                     var duplicate = $("#image-right-row").clone(true);
@@ -189,7 +190,7 @@
                     $("#image-right-div").append(duplicate);
                 }
             }
-        }
+
     });
 
     $.each(dictPutall, function(index, val) {
