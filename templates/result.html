@@ -70,6 +70,18 @@
                     <img class="img-responsive" src="" style="width:100%" alt="Image display error">
                 </div>
             </div>
+
+            <div id="mid-format-div" class="col-md-6">
+                 <div id="dialog-row" class="row" style="width: 350px;height: 220px;background-color: darkgrey;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
+                    <p id="p-format" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed">The TCP and HTTP packets format<br>
+Ethernet header include Media Access Control(MAC) address of source and destination.<br>
+IP header mainly include protocol field, source IP address and destination IP address.<br>
+TCP header mainly include Source Port and Destination Port fields, Sequence Number field, and Acknowledgement Number field. The port number is used to find the application process on the sending and receiving end(Philips hue app and the Philips bulb), and to identify both ends of each TCP link with IP address and MAC address.
+TCP data<br>
+In this example, the data packet has been cleaned and filtered. The above MAC address, IP address, and port are all the same (the source and destination are corresponding). This information will be omitted below. Only the TCP data field and protocol type will be displayed.</p>
+
+                </div>
+            </div>
         
             <div id="dialog-div" class="col-md-6">
                 <div id="dialog-row" class="row" style="width: 350px;height: 220px;background-color: whitesmoke;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
@@ -99,14 +111,14 @@
     var dictPutall = dictAllPut['pcap'+pcap_num];
     var if_first = 1;
     $.each(dictPutall, function(index, val) {
-        {#if(if_first == 1) {#}
-        {#    var duplicate = $("#image-left-row").clone(true);#}
-        {#    duplicate.attr('id', 'image-left-row-'+index);#}
-        {#    duplicate.css('display', '');#}
-        {#    duplicate.find("img").attr('src', '../static/off.jpg');#}
-        {#    $("#image-left-div").append(duplicate);#}
-        {#    if_first = 0;#}
-       
+        if(if_first == 1) {
+            var duplicate = $("#image-left-row").clone(true);
+            duplicate.attr('id', 'image-left-row-'+index);
+            duplicate.css('display', '');
+            duplicate.find("img").attr('src', '../static/off.jpg');
+            $("#image-left-div").append(duplicate);
+            if_first = 0;
+        } else {
             if(val.length > 0) {
                 if(val[1].indexOf('Turn on') != -1){
                     var duplicate = $("#image-left-row").clone(true);
@@ -141,21 +153,20 @@
                     $("#image-left-div").append(duplicate);
                 }
             }
-
+        }
     });
 
     var if_first = 1;
     $.each(dictPutall, function(index, val) {
         console.log(index);
-        {#if(if_first == 1) {#}
-        {#    var duplicate = $("#image-right-row").clone(true);#}
-        {#    duplicate.attr('id', 'image-right-row-'+index);#}
-        {#    duplicate.css('display', '');#}
-        {#    duplicate.find("img").attr('src', '../static/loff.jpg');#}
-        {#    $("#image-right-div").append(duplicate);#}
-        {#    if_first = 0;#}
-
-        {#else {#}
+        if(if_first == 1) {
+            var duplicate = $("#image-right-row").clone(true);
+            duplicate.attr('id', 'image-right-row-'+index);
+            duplicate.css('display', '');
+            duplicate.find("img").attr('src', '../static/loff.jpg');
+            $("#image-right-div").append(duplicate);
+            if_first = 0;
+        } else {
             if(val.length > 0) {
                 if(val[1].indexOf('Turn on') != -1) {
                     var duplicate = $("#image-right-row").clone(true);
@@ -190,36 +201,45 @@
                     $("#image-right-div").append(duplicate);
                 }
             }
-
+        }
     });
-
+    var if_first = 1;
     $.each(dictPutall, function(index, val) {
-        if(val.length > 0) {
-            var duplicate = $("#dialog-row").clone(true);
-            duplicate.attr('id', 'dialog-row-'+(index+1));
-            duplicate.css('display', '');
-            if(val[2] == 'R') {
-                duplicate.attr('class', 'row pull-right');
-                duplicate.css({
-                    'background-color': 'slateblue',
-                    'border': 'lightslategrey solid'
-                });
-                duplicate.find("#p-protocol").css('color', 'white');
-                duplicate.find("#p-origin").css({
-                    'color': '#E0E9F4',
-                    'border-bottom': 'darkgoldenrod dashed'
-                });
-                duplicate.find("#p-translate").css('color', 'white');
-            } else {
-                duplicate.attr('class', 'row pull-left');
+        if(if_first == 1) {
+            var duplicate = $("#mid-format-div").clone(true);
+            {#duplicate.attr('id', 'image-right-row-'+index);#}
+            {#duplicate.css('display', '');#}
+            {#duplicate.find("img").attr('src', '../static/loff.jpg');#}
+            $("#mid-format-div").append(duplicate);
+            if_first = 0;
+        } else {
+            if(val.length > 0) {
+                var duplicate = $("#dialog-row").clone(true);
+                duplicate.attr('id', 'dialog-row-'+(index+1));
+                duplicate.css('display', '');
+                if(val[2] == 'R') {
+                    duplicate.attr('class', 'row pull-right');
+                    duplicate.css({
+                        'background-color': 'slateblue',
+                        'border': 'lightslategrey solid'
+                    });
+                    duplicate.find("#p-protocol").css('color', 'white');
+                    duplicate.find("#p-origin").css({
+                        'color': '#E0E9F4',
+                        'border-bottom': 'darkgoldenrod dashed'
+                    });
+                    duplicate.find("#p-translate").css('color', 'white');
+                } else {
+                    duplicate.attr('class', 'row pull-left');
+                }
+                duplicate.find("#p-protocol").html(val[3]);
+                duplicate.find("#p-protocol").attr('id', 'p-protocol-'+(index+1));
+                duplicate.find("#p-origin").html(val[0]);
+                duplicate.find("#p-origin").attr('id', 'p-origin-'+(index+1));
+                duplicate.find("#p-translate").html(val[1]);
+                duplicate.find("#p-translate").attr('id', 'p-translate'+(index+1));
+                $("#dialog-div").append(duplicate);
             }
-            duplicate.find("#p-protocol").html(val[3]);
-            duplicate.find("#p-protocol").attr('id', 'p-protocol-'+(index+1));
-            duplicate.find("#p-origin").html(val[0]);
-            duplicate.find("#p-origin").attr('id', 'p-origin-'+(index+1));
-            duplicate.find("#p-translate").html(val[1]);
-            duplicate.find("#p-translate").attr('id', 'p-translate'+(index+1));
-            $("#dialog-div").append(duplicate);
         }
     });
 </script>
