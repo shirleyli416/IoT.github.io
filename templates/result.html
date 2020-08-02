@@ -71,8 +71,6 @@
                 </div>
             </div>
 
-
-
         
             <div id="dialog-div" class="col-md-6">
                 <div id="image-mid-row" class="row center-block" style="width: auto;height: 220px;margin-top: 10px;display: none">
@@ -204,13 +202,15 @@
             var duplicate = $("#image-mid-row").clone(true);
             duplicate.attr('id', 'dialog-row-'+index);
             duplicate.css('display', '');
+            duplicate.css('height', '440px');
+
             duplicate.find("img").attr('src', '../static/5.jpeg');
             $("#dialog-div").append(duplicate);
             if_first = 0;
         } else {
             if (val.length > 0) {
                 var duplicate = $("#dialog-row").clone(true);
-                duplicate.attr('id', 'dialog-row-' + (index ));
+                duplicate.attr('id', 'dialog-row-' + (index + 1));
                 duplicate.css('display', '');
                 if (val[2] == 'R') {
                     duplicate.attr('class', 'row pull-right');
@@ -228,11 +228,11 @@
                     duplicate.attr('class', 'row pull-left');
                 }
                 duplicate.find("#p-protocol").html(val[3]);
-                duplicate.find("#p-protocol").attr('id', 'p-protocol-' + (index );
+                duplicate.find("#p-protocol").attr('id', 'p-protocol-' + (index + 1));
                 duplicate.find("#p-origin").html(val[0]);
-                duplicate.find("#p-origin").attr('id', 'p-origin-' + (index ));
+                duplicate.find("#p-origin").attr('id', 'p-origin-' + (index + 1));
                 duplicate.find("#p-translate").html(val[1]);
-                duplicate.find("#p-translate").attr('id', 'p-translate' + (index ));
+                duplicate.find("#p-translate").attr('id', 'p-translate' + (index + 1));
                 $("#dialog-div").append(duplicate);
             }
         }
