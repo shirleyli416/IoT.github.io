@@ -61,6 +61,33 @@
     </div>
 </div>
 
+<div class="introduction">
+    <div class="row" style="margin-top: 120px">
+
+        <!-- <div class="row"> -->
+           <div id="image-left-div" class="col-md-3">
+                <div id="image-left-row" class="row center-block" style="width: 220px;height: 440px;margin-top: 10px">
+                    <img class="img-responsive" src="../static/off.jpg" style="width:100%" alt="Image display error">
+                </div>
+            </div>
+
+            <div id="dialog-div" class="col-md-6">
+                <div id="image-mid-row" class="row center-block" style="width: auto;height: 4400px;margin-top: 10px">
+                    <img class="img-responsive" src="../static/5.jpeg" style="width:100%" alt="Image display error">
+                </div>
+            </div>
+
+            <div id="image-right-div" class="col-md-3">
+                <div id="image-right-row" class="row center-block" style="width: 220px;height: 4400px;margin-top: 10px">
+                    <img class="img-responsive" src="../static/loff.jpg" style="width:100%" alt="Image display error">
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+
 <div class="container">
     <div class="row" style="margin-top: 120px">
 
@@ -73,9 +100,6 @@
 
         
             <div id="dialog-div" class="col-md-6">
-                <div id="image-mid-row" class="row center-block" style="width: auto;height: 220px;margin-top: 10px;display: none">
-                    <img class="img-responsive" src="" style="width:100%" alt="Image display error">
-                </div>
                 <div id="dialog-row" class="row" style="width: 350px;height: 220px;background-color: whitesmoke;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
                     <p id="p-protocol" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed"></p>
                     <p id="p-origin" style ="word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed; color: grey"></p>
@@ -101,16 +125,15 @@
 
     var pcap_num = window.location.search.substr(1);
     var dictPutall = dictAllPut['pcap'+pcap_num];
-    var if_first = 1;
+    {#var if_first = 1;#}
     $.each(dictPutall, function(index, val) {
-        if(if_first == 1) {
-            var duplicate = $("#image-left-row").clone(true);
-            duplicate.attr('id', 'image-left-row-'+index);
-            duplicate.css('display', '');
-            duplicate.find("img").attr('src', '../static/off.jpg');
-            $("#image-left-div").append(duplicate);
-            if_first = 0;
-        } else {
+        {#if(if_first == 1) {#}
+        {#    var duplicate = $("#image-left-row").clone(true);#}
+        {#    duplicate.attr('id', 'image-left-row-'+index);#}
+        {#    duplicate.css('display', '');#}
+        {#    duplicate.find("img").attr('src', '../static/off.jpg');#}
+        {#    $("#image-left-div").append(duplicate);#}
+        {#    if_first = 0;} else {#}
             if(val.length > 0) {
                 if(val[1].indexOf('Turn on') != -1){
                     var duplicate = $("#image-left-row").clone(true);
@@ -145,21 +168,20 @@
                     $("#image-left-div").append(duplicate);
                 }
             }
-        }
+
     });
 
-    var if_first = 1;
+    {#var if_first = 1;#}
     $.each(dictPutall, function(index, val) {
         console.log(index);
-        if(if_first == 1) {
-            var duplicate = $("#image-right-row").clone(true);
-            duplicate.attr('id', 'dialog-row-'+index);
-            duplicate.css('display', '');
-            duplicate.find("img").attr('src', '../static/loff.jpg');
-            $("#image-right-div").append(duplicate);
-            if_first = 0;
-        } else {
-            if(val.length > 0) {
+        {#if(if_first == 1) {#}
+        {#    var duplicate = $("#image-right-row").clone(true);#}
+        {#    duplicate.attr('id', 'dialog-row-'+index);#}
+        {#    duplicate.css('display', '');#}
+        {#    duplicate.find("img").attr('src', '../static/loff.jpg');#}
+        {#    $("#image-right-div").append(duplicate);#}
+        {#    if_first = 0;} else {#}
+        {#    if(val.length > 0) {#}
                 if(val[1].indexOf('Turn on') != -1) {
                     var duplicate = $("#image-right-row").clone(true);
                     duplicate.attr('id', 'image-right-row-'+(index+1));
@@ -192,22 +214,21 @@
                     duplicate.append('<p></p>');
                     $("#image-right-div").append(duplicate);
                 }
-            }
-        }
+
+
     });
-    var if_first = 1;
+    {#var if_first = 1;#}
     $.each(dictPutall, function(index, val) {
         console.log(index);
-        if(if_first == 1) {
-            var duplicate = $("#image-mid-row").clone(true);
-            duplicate.attr('id', 'dialog-row-'+index);
-            duplicate.css('display', '');
-            duplicate.css('height', '440px');
-
-            duplicate.find("img").attr('src', '../static/5.jpeg');
-            $("#dialog-div").append(duplicate);
-            if_first = 0;
-        } else {
+        {#if(if_first == 1) {#}
+        {#    var duplicate = $("#image-mid-row").clone(true);#}
+        {#    duplicate.attr('id', 'dialog-row-'+index);#}
+        {#    duplicate.css('display', '');#}
+        {#    duplicate.css('height', '440px');#}
+        {##}
+        {#    duplicate.find("img").attr('src', '../static/5.jpeg');#}
+        {#    $("#dialog-div").append(duplicate);#}
+        {#    if_first = 0;} else {#}
             if (val.length > 0) {
                 var duplicate = $("#dialog-row").clone(true);
                 duplicate.attr('id', 'dialog-row-' + (index + 1));
@@ -235,6 +256,6 @@
                 duplicate.find("#p-translate").attr('id', 'p-translate' + (index + 1));
                 $("#dialog-div").append(duplicate);
             }
-        }
+
     });
 </script>
