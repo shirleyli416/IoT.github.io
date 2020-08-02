@@ -210,7 +210,7 @@
         } else {
             if (val.length > 0) {
                 var duplicate = $("#dialog-row").clone(true);
-                duplicate.attr('id', 'dialog-row-' + (index + 1));
+                duplicate.attr('id', 'dialog-row-' + (index ));
                 duplicate.css('display', '');
                 if (val[2] == 'R') {
                     duplicate.attr('class', 'row pull-right');
@@ -228,11 +228,11 @@
                     duplicate.attr('class', 'row pull-left');
                 }
                 duplicate.find("#p-protocol").html(val[3]);
-                duplicate.find("#p-protocol").attr('id', 'p-protocol-' + (index + 1));
+                duplicate.find("#p-protocol").attr('id', 'p-protocol-' + (index );
                 duplicate.find("#p-origin").html(val[0]);
-                duplicate.find("#p-origin").attr('id', 'p-origin-' + (index + 1));
+                duplicate.find("#p-origin").attr('id', 'p-origin-' + (index ));
                 duplicate.find("#p-translate").html(val[1]);
-                duplicate.find("#p-translate").attr('id', 'p-translate' + (index + 1));
+                duplicate.find("#p-translate").attr('id', 'p-translate' + (index ));
                 $("#dialog-div").append(duplicate);
             }
         }
