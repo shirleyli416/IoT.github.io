@@ -61,7 +61,8 @@
     </div>
 </div>
 
-<div class="container intro">
+{#<div class="container intro">#}
+
     <div class="row" style="margin-top: 120px">
 
         <!-- <div class="row"> -->
@@ -84,7 +85,7 @@
             </div>
 
     </div>
-</div>
+
 
 
 
@@ -130,31 +131,31 @@
         if(val.length > 0) {
             if(val[1].indexOf('Turn on') != -1){
                 var duplicate = $("#image-left-row").clone(true);
-                duplicate.attr('id', 'image-left-row-'+(index));
+                duplicate.attr('id', 'image-left-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/on.jpg');
                 $("#image-left-div").append(duplicate);
             } else if(val[1].indexOf('Turn off') != -1) {
                 var duplicate = $("#image-left-row").clone(true);
-                duplicate.attr('id', 'image-left-row-'+(index));
+                duplicate.attr('id', 'image-left-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/off.jpg');
                 $("#image-left-div").append(duplicate);
             } else if(val[1].indexOf('Change the bright') != -1) {
                 var duplicate = $("#image-left-row").clone(true);
-                duplicate.attr('id', 'image-left-row-'+(index));
+                duplicate.attr('id', 'image-left-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/bright.jpg');
                 $("#image-left-div").append(duplicate);
             } else if(val[1].indexOf('Bulb scene') != -1) {
                 var duplicate = $("#image-left-row").clone(true);
-                duplicate.attr('id', 'image-left-row-'+(index));
+                duplicate.attr('id', 'image-left-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/scene.jpg');
                 $("#image-left-div").append(duplicate);
             } else {
                 var duplicate = $("#image-left-row").clone(true);
-                duplicate.attr('id', 'image-left-row-'+(index));
+                duplicate.attr('id', 'image-left-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").remove();
                 duplicate.append('<p></p>');
@@ -168,31 +169,31 @@
         if(val.length > 0) {
             if(val[1].indexOf('Turn on') != -1) {
                 var duplicate = $("#image-right-row").clone(true);
-                duplicate.attr('id', 'image-right-row-'+(index));
+                duplicate.attr('id', 'image-right-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/lon.jpg');
                 $("#image-right-div").append(duplicate);
             } else if(val[1].indexOf('Turn off') != -1) {
                 var duplicate = $("#image-right-row").clone(true);
-                duplicate.attr('id', 'image-right-row-'+(index));
+                duplicate.attr('id', 'image-right-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/loff.jpg');
                 $("#image-right-div").append(duplicate);
             } else if(val[1].indexOf('Change the bright') != -1) {
                 var duplicate = $("#image-right-row").clone(true);
-                duplicate.attr('id', 'image-right-row-'+(index));
+                duplicate.attr('id', 'image-right-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/lbright.jpg');
                 $("#image-right-div").append(duplicate);
             } else if(val[1].indexOf('Bulb scene') != -1) {
                 var duplicate = $("#image-right-row").clone(true);
-                duplicate.attr('id', 'image-right-row-'+(index));
+                duplicate.attr('id', 'image-right-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").attr('src', '../static/lbright.jpg');
                 $("#image-right-div").append(duplicate);
             } else {
                 var duplicate = $("#image-right-row").clone(true);
-                duplicate.attr('id', 'image-right-row-'+(index));
+                duplicate.attr('id', 'image-right-row-'+(index+1));
                 duplicate.css('display', '');
                 duplicate.find("img").remove();
                 duplicate.append('<p></p>');
@@ -205,7 +206,7 @@
         console.log(index);
         if (val.length > 0) {
             var duplicate = $("#dialog-row").clone(true);
-            duplicate.attr('id', 'dialog-row-' + (index ));
+            duplicate.attr('id', 'dialog-row-' + (index+1 ));
             duplicate.css('display', '');
             if (val[2] == 'R') {
                 duplicate.attr('class', 'row pull-right');
@@ -223,11 +224,11 @@
                 duplicate.attr('class', 'row pull-left');
             }
             duplicate.find("#p-protocol").html(val[3]);
-            duplicate.find("#p-protocol").attr('id', 'p-protocol-' + (index));
+            duplicate.find("#p-protocol").attr('id', 'p-protocol-' + (index+1));
             duplicate.find("#p-origin").html(val[0]);
-            duplicate.find("#p-origin").attr('id', 'p-origin-' + (index));
+            duplicate.find("#p-origin").attr('id', 'p-origin-' + (index+1));
             duplicate.find("#p-translate").html(val[1]);
-            duplicate.find("#p-translate").attr('id', 'p-translate' + (index));
+            duplicate.find("#p-translate").attr('id', 'p-translate' + (index+1));
             $("#dialog-div").append(duplicate);
         }
     });
