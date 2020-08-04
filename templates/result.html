@@ -63,19 +63,27 @@
 
     <div class="container intro" style="margin-top: 120px; border-bottom: #333333 dashed">
        <div id="image-left-off" class="col-md-3">
-            <div id="image-left-rowoff" style="width: 220px;height: 480px;margin-top: 10px;border-right: coral dashed">
+            <div id="image-left-rowoff" class="row center-block" style="width: 220px;height: 500px;margin-top: 10px;border-right: coral dashed">
                 <img class="img-responsive" src="../static/off.jpg" style="width:100%" alt="Image display error">
+                <p>Initial interface of Philips Hue app</p>
             </div>
         </div>
 
         <div id="dialog-intro" class="col-md-6">
-            <div id="image-mid-rowinfo"  style="width: auto;height: 480px;margin-top: 10px">
+            <div id="image-mid-rowinfo"  class="row center-block" style="width: 100%;height: 500px;margin-top: 10px">
                 <img class="img-responsive" src="../static/5.jpeg" style="width:100%" alt="Image display error">
+                <p style ="font-size: small"><strong>Ethernet header </strong>includes Media Access Control(MAC) address of source and destination.</p>
+                <p  style ="font-size: small"><strong>IP header</strong> mainly includes protocol field, source IP address and destination IP address.</p>
+                <p style ="font-size: small"><strong>TCP header</strong> mainly includes Source Port and Destination Port fields, Sequence Number field, and Acknowledgement Number field.</p>
+                <p style ="font-size: small">The port number is used to find the application process on the sending and receiving end(Philips hue app and the Philips bulb), and to identify both ends of each TCP link with IP address and MAC address.</p>
+                <p style ="font-size: small">In this example, the data packet has been cleaned and filtered. The above MAC address, IP address, and port are all the same (the source and destination are corresponding). This information will be omitted below. Only the <strong>TCP data field</strong> and <strong>protocol type</strong> will be displayed.</p>
+                <p style ="font-size: small">iPhone MAC address: dc:2b:2a:85:06:b0      Philips bulb MAC address: 00:17:88:13:3e:2</p>
+                <p style ="font-size: small">iPhone IP address: 192.168.2.2                     Philips bulb IP address: 192.168.2.3</p>
             </div>
         </div>
 
         <div id="image-right-intro" class="col-md-3">
-            <div id="image-right-rowoff" style="width: 220px;height: 480px;margin-top: 10px;border-left: coral dashed">
+            <div id="image-right-rowoff" class="row center-block" style="width: 220px;height: 500px;margin-top: 10px;border-left: coral dashed">
                 <img class="img-responsive" src="../static/loff.jpg" style="width:100%" alt="Image display error">
             </div>
         </div>
