@@ -1,4 +1,4 @@
-{
+var dictAllPut = {
     "pcap1": {
         "0": [
             "SEQ=2477031112 ACK=0",
