@@ -26,7 +26,7 @@ var dictAllPut = {
         ],
         "3": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -74,7 +74,7 @@ var dictAllPut = {
         ],
         "15": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -170,7 +170,7 @@ var dictAllPut = {
         ],
         "37": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -218,7 +218,7 @@ var dictAllPut = {
         ],
         "49": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -266,7 +266,7 @@ var dictAllPut = {
         ],
         "61": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -307,7 +307,7 @@ var dictAllPut = {
         ],
         "75": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -355,7 +355,7 @@ var dictAllPut = {
         ],
         "87": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -691,7 +691,7 @@ var dictAllPut = {
         ],
         "159": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -739,7 +739,7 @@ var dictAllPut = {
         ],
         "171": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1075,7 +1075,7 @@ var dictAllPut = {
         ],
         "245": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1123,7 +1123,7 @@ var dictAllPut = {
         ],
         "258": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1603,7 +1603,7 @@ var dictAllPut = {
         ],
         "371": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1651,7 +1651,7 @@ var dictAllPut = {
         ],
         "383": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1747,7 +1747,7 @@ var dictAllPut = {
         ],
         "405": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1795,7 +1795,7 @@ var dictAllPut = {
         ],
         "417": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1843,7 +1843,7 @@ var dictAllPut = {
         ],
         "429": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1884,7 +1884,7 @@ var dictAllPut = {
         ],
         "443": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1932,7 +1932,7 @@ var dictAllPut = {
         ],
         "455": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -1980,7 +1980,7 @@ var dictAllPut = {
         ],
         "474": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2028,7 +2028,7 @@ var dictAllPut = {
         ],
         "486": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2078,7 +2078,7 @@ var dictAllPut = {
         ],
         "3": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2126,7 +2126,7 @@ var dictAllPut = {
         ],
         "15": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2222,7 +2222,7 @@ var dictAllPut = {
         ],
         "37": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2270,7 +2270,7 @@ var dictAllPut = {
         ],
         "49": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2318,7 +2318,7 @@ var dictAllPut = {
         ],
         "61": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2366,7 +2366,7 @@ var dictAllPut = {
         ],
         "73": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2414,7 +2414,7 @@ var dictAllPut = {
         ],
         "85": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2503,7 +2503,7 @@ var dictAllPut = {
         ],
         "109": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2551,7 +2551,7 @@ var dictAllPut = {
         ],
         "121": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2599,7 +2599,7 @@ var dictAllPut = {
         ],
         "133": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2647,7 +2647,7 @@ var dictAllPut = {
         ],
         "145": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2695,7 +2695,7 @@ var dictAllPut = {
         ],
         "157": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2743,7 +2743,7 @@ var dictAllPut = {
         ],
         "169": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2791,7 +2791,7 @@ var dictAllPut = {
         ],
         "181": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2839,7 +2839,7 @@ var dictAllPut = {
         ],
         "193": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2889,7 +2889,7 @@ var dictAllPut = {
         ],
         "3": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2937,7 +2937,7 @@ var dictAllPut = {
         ],
         "15": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -2985,7 +2985,7 @@ var dictAllPut = {
         ],
         "27": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3074,7 +3074,7 @@ var dictAllPut = {
         ],
         "51": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3122,7 +3122,7 @@ var dictAllPut = {
         ],
         "63": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3170,7 +3170,7 @@ var dictAllPut = {
         ],
         "75": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3218,7 +3218,7 @@ var dictAllPut = {
         ],
         "87": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3554,7 +3554,7 @@ var dictAllPut = {
         ],
         "159": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3602,7 +3602,7 @@ var dictAllPut = {
         ],
         "171": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3746,7 +3746,7 @@ var dictAllPut = {
         ],
         "205": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -3842,7 +3842,7 @@ var dictAllPut = {
         ],
         "227": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4034,7 +4034,7 @@ var dictAllPut = {
         ],
         "270": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4075,7 +4075,7 @@ var dictAllPut = {
         ],
         "284": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4123,7 +4123,7 @@ var dictAllPut = {
         ],
         "296": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4555,7 +4555,7 @@ var dictAllPut = {
         ],
         "391": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4603,7 +4603,7 @@ var dictAllPut = {
         ],
         "403": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4699,7 +4699,7 @@ var dictAllPut = {
         ],
         "425": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4747,7 +4747,7 @@ var dictAllPut = {
         ],
         "437": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -4795,7 +4795,7 @@ var dictAllPut = {
         ],
         "449": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5124,7 +5124,7 @@ var dictAllPut = {
         ],
         "525": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5220,7 +5220,7 @@ var dictAllPut = {
         ],
         "548": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5268,7 +5268,7 @@ var dictAllPut = {
         ],
         "560": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5316,7 +5316,7 @@ var dictAllPut = {
         ],
         "572": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5412,7 +5412,7 @@ var dictAllPut = {
         ],
         "594": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5460,7 +5460,7 @@ var dictAllPut = {
         ],
         "606": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5508,7 +5508,7 @@ var dictAllPut = {
         ],
         "618": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5556,7 +5556,7 @@ var dictAllPut = {
         ],
         "630": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5604,7 +5604,7 @@ var dictAllPut = {
         ],
         "644": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5645,7 +5645,7 @@ var dictAllPut = {
         ],
         "658": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5693,7 +5693,7 @@ var dictAllPut = {
         ],
         "670": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5741,7 +5741,7 @@ var dictAllPut = {
         ],
         "682": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5789,7 +5789,7 @@ var dictAllPut = {
         ],
         "694": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5837,7 +5837,7 @@ var dictAllPut = {
         ],
         "706": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5885,7 +5885,7 @@ var dictAllPut = {
         ],
         "718": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5933,7 +5933,7 @@ var dictAllPut = {
         ],
         "730": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -5981,7 +5981,7 @@ var dictAllPut = {
         ],
         "742": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6029,7 +6029,7 @@ var dictAllPut = {
         ],
         "756": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6077,7 +6077,7 @@ var dictAllPut = {
         ],
         "768": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6125,7 +6125,7 @@ var dictAllPut = {
         ],
         "780": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6166,7 +6166,7 @@ var dictAllPut = {
         ],
         "794": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6214,7 +6214,7 @@ var dictAllPut = {
         ],
         "806": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6262,7 +6262,7 @@ var dictAllPut = {
         ],
         "818": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6310,7 +6310,7 @@ var dictAllPut = {
         ],
         "830": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6360,7 +6360,7 @@ var dictAllPut = {
         ],
         "4": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6408,7 +6408,7 @@ var dictAllPut = {
         ],
         "16": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6504,7 +6504,7 @@ var dictAllPut = {
         ],
         "38": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6552,7 +6552,7 @@ var dictAllPut = {
         ],
         "50": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6600,7 +6600,7 @@ var dictAllPut = {
         ],
         "62": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6648,7 +6648,7 @@ var dictAllPut = {
         ],
         "74": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6696,7 +6696,7 @@ var dictAllPut = {
         ],
         "87": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6737,7 +6737,7 @@ var dictAllPut = {
         ],
         "107": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6785,7 +6785,7 @@ var dictAllPut = {
         ],
         "119": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6881,7 +6881,7 @@ var dictAllPut = {
         ],
         "141": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6922,7 +6922,7 @@ var dictAllPut = {
         ],
         "161": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -6963,7 +6963,7 @@ var dictAllPut = {
         ],
         "176": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7004,7 +7004,7 @@ var dictAllPut = {
         ],
         "196": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7093,7 +7093,7 @@ var dictAllPut = {
         ],
         "226": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7134,7 +7134,7 @@ var dictAllPut = {
         ],
         "246": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7175,7 +7175,7 @@ var dictAllPut = {
         ],
         "267": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7216,7 +7216,7 @@ var dictAllPut = {
         ],
         "281": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7257,7 +7257,7 @@ var dictAllPut = {
         ],
         "301": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7346,7 +7346,7 @@ var dictAllPut = {
         ],
         "331": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7387,7 +7387,7 @@ var dictAllPut = {
         ],
         "363": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7428,7 +7428,7 @@ var dictAllPut = {
         ],
         "384": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7469,7 +7469,7 @@ var dictAllPut = {
         ],
         "404": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7510,7 +7510,7 @@ var dictAllPut = {
         ],
         "418": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7551,7 +7551,7 @@ var dictAllPut = {
         ],
         "438": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7592,7 +7592,7 @@ var dictAllPut = {
         ],
         "458": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7633,7 +7633,7 @@ var dictAllPut = {
         ],
         "479": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7674,7 +7674,7 @@ var dictAllPut = {
         ],
         "499": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7715,7 +7715,7 @@ var dictAllPut = {
         ],
         "519": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7758,7 +7758,7 @@ var dictAllPut = {
         ],
         "3": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7806,7 +7806,7 @@ var dictAllPut = {
         ],
         "15": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7902,7 +7902,7 @@ var dictAllPut = {
         ],
         "37": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7950,7 +7950,7 @@ var dictAllPut = {
         ],
         "49": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -7998,7 +7998,7 @@ var dictAllPut = {
         ],
         "62": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8046,7 +8046,7 @@ var dictAllPut = {
         ],
         "74": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8094,7 +8094,7 @@ var dictAllPut = {
         ],
         "86": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8183,7 +8183,7 @@ var dictAllPut = {
         ],
         "110": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8231,7 +8231,7 @@ var dictAllPut = {
         ],
         "122": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8279,7 +8279,7 @@ var dictAllPut = {
         ],
         "134": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8327,7 +8327,7 @@ var dictAllPut = {
         ],
         "146": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8423,7 +8423,7 @@ var dictAllPut = {
         ],
         "168": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8471,7 +8471,7 @@ var dictAllPut = {
         ],
         "181": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8519,7 +8519,7 @@ var dictAllPut = {
         ],
         "206": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8567,7 +8567,7 @@ var dictAllPut = {
         ],
         "218": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8615,7 +8615,7 @@ var dictAllPut = {
         ],
         "230": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8663,7 +8663,7 @@ var dictAllPut = {
         ],
         "242": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8711,7 +8711,7 @@ var dictAllPut = {
         ],
         "254": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8800,7 +8800,7 @@ var dictAllPut = {
         ],
         "278": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8848,7 +8848,7 @@ var dictAllPut = {
         ],
         "290": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8896,7 +8896,7 @@ var dictAllPut = {
         ],
         "302": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8944,7 +8944,7 @@ var dictAllPut = {
         ],
         "314": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -8992,7 +8992,7 @@ var dictAllPut = {
         ],
         "327": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9040,7 +9040,7 @@ var dictAllPut = {
         ],
         "339": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9088,7 +9088,7 @@ var dictAllPut = {
         ],
         "351": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9136,7 +9136,7 @@ var dictAllPut = {
         ],
         "363": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9184,7 +9184,7 @@ var dictAllPut = {
         ],
         "375": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9225,7 +9225,7 @@ var dictAllPut = {
         ],
         "389": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9273,7 +9273,7 @@ var dictAllPut = {
         ],
         "401": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9323,7 +9323,7 @@ var dictAllPut = {
         ],
         "6": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9371,7 +9371,7 @@ var dictAllPut = {
         ],
         "18": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9419,7 +9419,7 @@ var dictAllPut = {
         ],
         "32": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9467,7 +9467,7 @@ var dictAllPut = {
         ],
         "44": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9563,7 +9563,7 @@ var dictAllPut = {
         ],
         "73": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9611,7 +9611,7 @@ var dictAllPut = {
         ],
         "85": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9659,7 +9659,7 @@ var dictAllPut = {
         ],
         "98": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9700,7 +9700,7 @@ var dictAllPut = {
         ],
         "118": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9748,7 +9748,7 @@ var dictAllPut = {
         ],
         "130": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9844,7 +9844,7 @@ var dictAllPut = {
         ],
         "152": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9885,7 +9885,7 @@ var dictAllPut = {
         ],
         "166": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9926,7 +9926,7 @@ var dictAllPut = {
         ],
         "186": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -9967,7 +9967,7 @@ var dictAllPut = {
         ],
         "206": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10056,7 +10056,7 @@ var dictAllPut = {
         ],
         "237": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10145,7 +10145,7 @@ var dictAllPut = {
         ],
         "267": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10186,7 +10186,7 @@ var dictAllPut = {
         ],
         "287": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10227,7 +10227,7 @@ var dictAllPut = {
         ],
         "301": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10270,7 +10270,7 @@ var dictAllPut = {
         ],
         "3": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10359,7 +10359,7 @@ var dictAllPut = {
         ],
         "33": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10400,7 +10400,7 @@ var dictAllPut = {
         ],
         "53": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10441,7 +10441,7 @@ var dictAllPut = {
         ],
         "67": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10530,7 +10530,7 @@ var dictAllPut = {
         ],
         "97": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10619,7 +10619,7 @@ var dictAllPut = {
         ],
         "127": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10725,7 +10725,7 @@ var dictAllPut = {
         ],
         "167": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10814,7 +10814,7 @@ var dictAllPut = {
         ],
         "197": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10855,7 +10855,7 @@ var dictAllPut = {
         ],
         "217": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10896,7 +10896,7 @@ var dictAllPut = {
         ],
         "231": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10937,7 +10937,7 @@ var dictAllPut = {
         ],
         "251": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -10978,7 +10978,7 @@ var dictAllPut = {
         ],
         "271": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11021,7 +11021,7 @@ var dictAllPut = {
         ],
         "3": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11069,7 +11069,7 @@ var dictAllPut = {
         ],
         "15": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11165,7 +11165,7 @@ var dictAllPut = {
         ],
         "38": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11213,7 +11213,7 @@ var dictAllPut = {
         ],
         "50": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11645,7 +11645,7 @@ var dictAllPut = {
         ],
         "143": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11693,7 +11693,7 @@ var dictAllPut = {
         ],
         "155": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -11837,7 +11837,7 @@ var dictAllPut = {
         ],
         "199": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/config HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12022,7 +12022,7 @@ var dictAllPut = {
         ],
         "243": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12070,7 +12070,7 @@ var dictAllPut = {
         ],
         "255": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12118,7 +12118,7 @@ var dictAllPut = {
         ],
         "283": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12166,7 +12166,7 @@ var dictAllPut = {
         ],
         "295": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12214,7 +12214,7 @@ var dictAllPut = {
         ],
         "308": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12262,7 +12262,7 @@ var dictAllPut = {
         ],
         "320": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12310,7 +12310,7 @@ var dictAllPut = {
         ],
         "332": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/lights HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
@@ -12358,7 +12358,7 @@ var dictAllPut = {
         ],
         "344": [
             "GET /api/RrtPxpx78U8J-K0TgsKQTAS8wEwO-C72bPDkzNvb/groups HTTP/1.1\r\nHost: 192.168.2.3\r\nAccept: */*\r\nContent-Type: application/json\r\n\r\n",
-            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb?",
+            "This is a HTTP Request message from Phone. The message means phone want to know current status of bulb.",
             "L",
             "TCP layer: Protocol: HTTP",
             "Ethernet layer: dst = 00:17:88:13:3e:22(Bulb) src = dc:2b:2a:85:06:b0(Phone)",
