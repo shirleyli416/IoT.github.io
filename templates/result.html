@@ -100,6 +100,8 @@
 
             <div id="dialog-div" class="col-md-6">
                 <div id="dialog-row" class="row" style="width: 350px;height: 220px;background-color: whitesmoke;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
+                    <p id="p-ethernet" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed"></p>
+                    <p id="p-ip" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed"></p>
                     <p id="p-protocol" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed"></p>
                     <p id="p-origin" style ="word-wrap: break-word; word-break: break-all;border-bottom: darkgoldenrod dashed; color: grey"></p>
                     <p id="p-translate" style ="font-weight: 600"></p>
@@ -235,12 +237,19 @@
                 });
                 duplicate.find("#p-translate").css('color', 'white');
                 duplicate.find("#p-protocol").css('color', 'white');
+                duplicate.find("#p-ethernet").css('color', 'white');
+                duplicate.find("#p-ip").css('color', 'white');
+
             } else {
                 duplicate.attr('class', 'row pull-left');
             }
-
+            duplicate.find("#p-ethernet").html(val[4]);
+            duplicate.find("#p-ethernet").attr('id', 'p-ethernet-'+(index+1));
+            duplicate.find("#p-ip").html(val[5]);
+            duplicate.find("#p-ip").attr('id', 'p-ip-'+(index+1));
             duplicate.find("#p-protocol").html(val[3]);
             duplicate.find("#p-protocol").attr('id', 'p-protocol-'+(index+1));
+
             duplicate.find("#p-origin").html(val[0]);
             duplicate.find("#p-origin").attr('id', 'p-origin-'+(index+1));
             duplicate.find("#p-translate").html(val[1]);
