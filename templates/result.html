@@ -99,10 +99,10 @@
 
             <div id="dialog-div" class="col-md-6">
                 <div id="dialog-row" class="row" style="width: 350px;height: 300px;background-color: whitesmoke;border: 2px darkgrey solid; margin-top: 10px; padding: 10px; border-radius: 8px; display: none">
-                    <p id="p-ethernet" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid"></p>
-                    <p id="p-ip" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid"></p>
-                    <p id="p-protocol" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid"></p>
-                    <p id="p-origin" style ="word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid; color: grey"></p>
+                    <p id="p-ethernet" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid 1px"></p>
+                    <p id="p-ip" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid 1px"></p>
+                    <p id="p-protocol" style ="color: black; word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid 1px"></p>
+                    <p id="p-origin" style ="word-wrap: break-word; word-break: break-all;border-bottom: #333333 solid 1px; color: grey"></p>
                     <p id="p-translate" style ="font-weight: 600"></p>
                 </div>
             </div>
@@ -230,10 +230,7 @@
                     'background-color': 'slateblue',
                     'border': 'lightslategrey solid'
                 });
-                duplicate.find("#p-origin").css({
-                    'color': '#E0E9F4',
-                    'border-bottom': 'darkgoldenrod dashed'
-                });
+                duplicate.find("#p-origin").css('color', '#E0E9F4');
                 duplicate.find("#p-translate").css('color', 'white');
                 duplicate.find("#p-protocol").css('color', 'white');
                 duplicate.find("#p-ethernet").css('color', 'white');
