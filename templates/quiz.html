@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>IoT traffic translater</title>
+    <link href="../static/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body {background-color: #E8EAFF}
+        nav nav-pills {color: aquamarine}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            background: url("../static/3.png");
+        }
+        li {float: right}
+        li a:hover {background-color: #111;}
+        li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+        p.Head{
+            font-family:Arial,Verdana,Sans-serif;
+            font-style:italic;
+            font-weight: bold;
+            font-size: 150%;
+            text-indent: 1cm;
+        }
+        p.body{
+            font-family:Arial,Verdana,Sans-serif;
+            /*font-style:italic;*/
+            /*font-weight: bold;*/
+            font-size: 120%;
+            text-indent: 1cm;
+        }
+        .code{display: none;color: indigo; padding-left: 20px}
+
+</style>
+<script>
+    function click_code(sname,sid){
+        if(sname.checked){
+            sid.style.display='block';
+        }else{
+            sid.style.display='none';
+        }
+
+    }
+
+</script>
+</head>
+<body>
+
+<ul class="navbar-fixed-top">
+    <li><a href="about.html">About</a></li>
+    <li><a href="help.html">Help</a></li>
+    <li><a href="quiz.html">Quiz</a></li>
+    <li><a href="index.html">Home</a></li>
+</ul>
+
+<div class="container">
+    <p class="Head" style="margin-top: 70px">
+        Quiz
+    </p>
+    <p class="body">
+        There are 3 simple questions playing a guidance role on the website before you use it, which might help you to find the key information in the Result page and have a better understanding of protocol and IoT traffic.
+    </p>
+    <br>
+    <p class="body"><br>Q1: The phone only sends packets to IoT devices when the user has performed the action on the control app on the phone.</p>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q1t);">TRUE</div>
+    <div id="q1t" class="code">The answer is FALSE. When the user does not change the status of the light bulb on Hue app, the app continues sending packets to the bulb to confirm the status.</div>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q1f);">FALSE</div>
+    <div id="q1f" class="code">Congratulation！You are right!</div>
+    <br>
+    <p class="body"><br>Q2: TCP establishes a reliable connection through 3 way handshake process.</p>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q2t);">TRUE</div>
+    <div id="q2t" class="code">Congratulation！You are right!</div>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q2f);">FALSE</div>
+    <div id="q2f" class="code">You are Wrong. Please reread the result page.</div>
+    <br>
+    <p class="body"><br>Q3: What does the phone confirm that it controls the device that the user wants it to control?</p>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q31);">Destination and Source MAC address</div>
+    <div id="q31" class="code">Your answer is incomplete</div>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q32);">Destination and Source IP address</div>
+    <div id="q32" class="code">Your answer is incomplete</div>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q33);">Destination and Source port number</div>
+    <div id="q33" class="code">Your answer is incomplete</div>
+    <div><input type="radio" name=sname value="" onclick="click_code(this,q3a);">All of the above</div>
+    <div id="q3a" class="code">Congratulation！You are right!</div>
+
+
+</div>
+</body>
+</html>
