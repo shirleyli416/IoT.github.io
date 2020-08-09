@@ -60,6 +60,149 @@
     <p class="body">
         In home page, there are 8 example packets, which are captured by Wireshark. Users could just select one example and click convert. After that, it will jump to the result page. The result page compares the original information in the package with the translated information. It makes it easier for the user to understand how does the packet transmit information to control the IoT device。
     </p>
+
+    <p class="Head">
+        The format of Ethernet frame
+    </p>
+    <table border="2">
+        <tr>
+        <td>Preamble</td>
+        <td>SFD</td>
+        <td>Destination Address</td>
+        <td>Source Address</td>
+        <td>Length</td>
+        <td>DATA</td>
+        <td>CRC</td>
+        </tr>
+        <tr>
+        <td>7 bytes</td>
+        <td>1 bytes</td>
+        <td>6 bytes</td>
+        <td>6 bytes</td>
+        <td>2 bytes</td>
+        <td>46~1500 bytes</td>
+        <td>4 bytes</td>
+
+        </tr>
+    </table>
+    <p class="body">
+        <br>
+        <strong>Preamble</strong> - Ethernet frame starts with 7-Bytes Preamble. This is a pattern of alternative 0’s and 1’s which indicates starting of the frame and allow sender and receiver to establish bit synchronization.<br>
+        <strong>Start of frame delimiter (SFD)</strong> - This is a 1-Byte field which is always set to 10101011. SFD indicates that upcoming bits are starting of the frame, which is the destination address.<br>
+        <strong>Destination Address</strong> - This is 6-Byte field which contains the MAC address of machine for which data is destined.<br>
+        <strong>Source Address</strong> - This is a 6-Byte field which contains the MAC address of source machine.<br>
+        <strong>Length</strong> - Length is a 2-Byte field, which indicates the length of entire Ethernet frame.<br>
+        <strong>DATA</strong> - This is the place where actual data is inserted, also known as Payload.<br>
+        <strong>Cyclic Redundancy Check (CRC)</strong> - This field contains a 32-bits hash code of data, which is generated over the Destination Address, Source Address, Length, and Data field. If the checksum computed by destination is not the same as sent checksum value, data received is corrupted.<br>
+    </p>
+    <p class="Head">
+        The format of IP Packet
+    </p>
+    <table border="2">
+
+        <tr>
+        <td>Version</td>
+        <td>IHL</td>
+        <td>TOS</td>
+        <td>Total Length</td>
+        <td>Identification</td>
+        <td>Flags</td>
+        <td>TTL</td>
+        <td>Protocol</td>
+        <td>Header checksum</td>
+        <td>Source IP address</td>
+        <td>Destination IP address</td>
+        <td>Options(If any) and Padding</td>
+        <td>DATA</td>
+
+        </tr>
+        <tr>
+        <td>4 bits</td>
+        <td>4 bits</td>
+        <td>8 bits</td>
+        <td>16 bits</td>
+        <td>16 bits</td>
+        <td>4 bits</td>
+        <td>8 bits</td>
+        <td>8 bits</td>
+        <td>16 bits</td>
+        <td>32 bits</td>
+        <td>32 bits</td>
+        <td>32 bits</td>
+        <td>32 bits</td>
+
+        </tr>
+    </table>
+    <p class="body">
+        <br>
+        <strong>Version</strong> - indicates the version of IP currently used.<br>
+        <strong>IP Header Length (IHL)</strong> - indicates how many 32-bit words are in the IP header.<br>
+        <strong>Type-of-service</strong> - specifies how a particular upper-layer protocol would like the current datagram to be handled. Datagrams can be assigned various levels of importance through this field.<br>
+        <strong></strong>Total Length - specifies the length of the entire IP packet, including data and header, in bytes.<br>
+        <strong>Identification</strong> - contains an integer that identifies the current datagram. This field is used to help reconstruct datagram fragments.<br>
+        <strong>Flags field</strong> - controls whether routers are allowed to fragment a packet and indicates the parts of a packet to the receiver.<br>
+        <strong>Time-to-live</strong> - maintains a counter that gradually decrements to zero, at which point the datagram is discarded. This keeps packets from looping endlessly.<br>
+        <strong>Protocol</strong> - indicates which upper-layer protocol receives incoming packets after IP processing is complete.<br>
+        <strong>Header Checksum</strong> - helps ensure IP header integrity.<br>
+        <strong>Source IP Address</strong> -specifies the sending node. <br>
+        <strong>Destination IP Address</strong> - specifies the receiving node.<br>
+        <strong>Options field</strong> - allows IP to support various options, such as security.<br>
+        <strong>DATA</strong> - contains upper-layer information.<br>
+    </p>
+
+    <p class="Head">
+        The format of TCP Packet
+    </p>
+
+    <table border="2">
+
+        <tr>
+        <td>Source Port</td>
+        <td>Destination Port</td>
+        <td>Sequence Number</td>
+        <td>Acknowledgement Number</td>
+        <td>Data Offset</td>
+        <td>Reserved</td>
+        <td>Flags</td>
+        <td>Window</td>
+        <td>Checksum</td>
+        <td>Urgent pointer</td>
+        <td>Options(If any) and Padding</td>
+        <td>DATA</td>
+
+        </tr>
+        <tr>
+        <td>16 bits</td>
+        <td>16 bits</td>
+        <td>32 bits</td>
+        <td>32 bits</td>
+        <td>variable length</td>
+        <td>6 bits</td>
+        <td>6 bits</td>
+        <td>16 bits</td>
+        <td>16 bits</td>
+        <td>16 bits</td>
+        <td>variable length</td>
+        <td>variable length</td>
+        </tr>
+    </table>
+
+    <p class="body">
+        <br>
+        <strong>Source Port and Destination Port</strong> - identify the end points of the connection.<br>
+        <strong>Sequence Number</strong> - specifies the number assigned to the first byte of data in the current message. Under certain circumstances, it can also be used to identify an initial sequence number to be used in the upcoming transmission.<br>
+        <strong>Acknowledgement Number</strong> - contains the value of the next sequence number that the sender of the segment is expecting to receive, if the ACK control bit is set. Note that the sequence number refers to the stream flowing in the same direction as the segment, while the acknowledgement number refers to the stream flowing in the opposite direction from the segment.<br>
+        <strong>Data Offset</strong> - Header Length, tells how many 32-bit words are contained in the TCP header. This information is needed because the Options field has variable length, so the header length is variable too.<br>
+        <strong>Reserved</strong> - must be zero. This is for future use.<br>
+        <strong>Flags</strong> - contains the various flags:<br>URG—Indicates that some urgent data has been placed.<br>ACK—Indicates that acknowledgement number is valid. <br>PSH—Indicates that data should be passed to the application as soon as possible.<br>RST—Resets the connection.<br>SYN—Synchronizes sequence numbers to initiate a connection.<br>FIN—Means that the sender of the flag has finished sending data.<br>
+        <strong>Window</strong> - specifies the size of the sender's receive window (that is, buffer space available for incoming data).<br>
+        <strong>Checksum</strong> - indicates whether the header was damaged in transit.<br>
+        <strong>Urgent pointer</strong> -points to the first urgent data byte in the packet. <br>
+        <strong>Options</strong> - specifies various TCP options.<br>
+        <strong>DATA</strong> - contains upper-layer information.<br>
+    </p>
+
+
 </div>
 </body>
 </html>
